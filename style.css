@@ -1,1 +1,391 @@
-/* Add your CSS here */
+/*This is the CSS file for the MBoutique Website*/
+
+/*Header Section*/
+
+#header {
+    height: 72px;
+    width: 1000px;
+    background-color: #fffabe;
+    background-position: fixed;
+    color: #515151;
+    font-size: 16px;
+}
+.logo {
+    float: left;
+    margin-top: 17px;
+    margin-left: 28px;
+    width: 156px;
+    height 33px;
+    color: #515151;
+}
+nav ul {
+    width: 700px;
+    margin-left: 270px;
+    margin-top: -38px;
+    list-style-type: none;
+    float: left;
+    color: #515151;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+nav li {
+    float: left;
+    padding-right: 45px;
+    padding-left: 18px;
+    color: #515151;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: #515151;
+}
+
+#welcomeimg {
+    height: 400px;
+   width: 1000px;
+
+}
+
+image2 {
+    float: left;
+    left: 35px;
+    margin-top 730px;
+    padding: 30px;
+}
+h3 {
+    float: left;
+}
+p#title1 {
+    margin-top: 78px;
+    margin-left: 315px;
+    width: 1000px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+.test1 {
+    padding-left: 30px;
+    margin-top: 60px;
+    width: 200px;
+    height: 200px;
+}
+#detail1 {
+    float: left;
+    margin-top: -280px;
+    margin-left: 280px;
+    width: 600px;
+    font-family: Arsial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+#title2 {
+    float: left;
+    margin-top: -145px;
+    margin-left: 280px;
+    width: 600px;
+    font-family: Arsial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+#detail2 {
+    float: left;
+    margin-top: -100px;
+    margin-left: 280px;
+    width: 600px;
+    font-family: Arsial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #6a6969;
+}
+#title3 {
+    margin-top: 30px;
+    margin-left: 280px;
+    width: 600px;
+    font-family: Arsial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #6a6969;
+}
+#squarescontainer {
+    list-style-type: none;
+    margin-top: -80px;
+    magin-left: 20px;
+    margin-bottom: 30px;
+    Padding-bottom: 30px;
+    align-content: flex-start;
+    display: fixed;
+    font-size: 12px;
+}
+#chart1 {
+    display: inline-block;
+    list-style-type: none;
+    margin-top: 160px;
+    magin-left: 20px;
+    margin-right: 13px;
+    padding-left: 10px;
+    width: 110px;
+}
+ul {
+    line-height: 20px;
+    margin-left: 22px;
+    width: 117px;
+    font-size: 12px;
+    list-style-type: none;
+    padding: 0px;
+    background-color: #fffabe;
+    position: absolute;
+}
+#row1 {
+    font-size: 14px width: 104px;
+    padding-top: 5px;
+    margin-left: 10px;
+    padding-left: 0px;
+    font-size: 14px;
+    color: #6a6969;
+}
+#row2 {
+    margin-left: 10px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    color: #6a6969;
+}
+#monrow3 {
+    margin-left: 10px;
+    background-image: url("assets/images/coffee.png");
+    background-repeat: no-repeat;
+    background-position: 66px center;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: #6a6969;
+    width: 104px;
+}
+#monrow4 {
+    padding-bottom: 3px;
+    background-image: url("assets/images/lemon.png");
+    background-repeat: no-repeat;
+    background-position: 75px center;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: white;
+    background-color: saddlebrown;
+    width: 92px;
+    font-size: 12px;
+    line-height:
+}
+#tuesrow3 {
+    margin-left: 10px;
+    background-image: url("assets/images/violet-cassis.png");
+    background-repeat: no-repeat;
+    background-position: 66px center;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: #6a6969;
+    width: 104px;
+}
+#monrow4 {
+    padding-bottom: 3px;
+    background-image: url("assets/images/lemon.png");
+    background-repeat: no-repeat;
+    background-position: 75px center;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: white;
+    background-color: saddlebrown;
+    width: 105px;
+    font-size: 12px;
+}
+#tuesrow4 {
+    margin-left: 10px;
+    background-image: url("assets/images/green-tea.png");
+    background-repeat: no-repeat;
+    background-position: 65px center;
+    padding-left: 0px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: #6a6969;
+    ;
+    width: 104px;
+    font-size: 12px;
+}
+#wedrow3 {
+    margin-left: 10px;
+    background-image: url("assets/images/passion-fruit.png");
+    background-repeat: no-repeat;
+    background-position: 66px center;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    color: #6a6969;
+    width: 104px;
+    font-size: 12px;
+}
+#wedrow4 {
+    padding-bottom: 3px;
+    background-image: url("assets/images/vanilla.png");
+    background-repeat: no-repeat;
+    background-position: 75px center;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: white;
+    background-color: #df5277;
+    width: 105px;
+    line-height:
+}
+#thursrow3 {
+    margin-left: 10px;
+    background-image: url("assets/images/coffee.png");
+    background-repeat: no-repeat;
+    background-position: 66px center;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    color: #6a6969;
+    width: 104px;
+    font-size: 12px;
+}
+#thursrow4 {
+    padding-bottom: 3px;
+    background-image: url("assets/images/pistachio.png");
+    background-repeat: no-repeat;
+    background-position: 75px center;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: #6a6969;
+    width: 92px;
+    line-height: font-size: 12px;
+}
+#frirow3 {
+    margin-left: 10px;
+    background-image: url("assets/images/raspbery.png");
+    background-repeat: no-repeat;
+    background-position: 66px center;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: #6a6969;
+    width: 104px;
+    font-size: 12px;
+}
+#frirow4 {
+    padding-bottom: 3px;
+    background-image: url("assets/images/lemon.png");
+    background-repeat: no-repeat;
+    background-position: 75px center;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: white;
+    background-color: #a2304e;
+    width: 105px;
+    line-height:
+}
+#satrow3 {
+    margin-left: 10px;
+    background-image: url("assets/images/rose.png");
+    background-repeat: no-repeat;
+    background-position: 66px center;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: #6a6969;
+    width: 104px;
+    display: fixed;
+}
+#satrow4 {
+    padding-bottom: 3px;
+    background-image: url("assets/images/tiffany-blue.png");
+    background-repeat: no-repeat;
+    background-position: 75px center;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: #6a6969 width: 92px;
+    line-height:
+}
+#sunrow3 {
+    margin-left: 10px;
+    background-image: url("assets/images/caramel.png");
+    background-repeat: no-repeat;
+    background-position: 66px center;
+    padding-left: 0px;
+    padding-bottom: 6px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: #6a6969;
+    width: 104px;
+}
+#sunrow4 {
+    padding-bottom: 3px;
+    background-image: url("assets/images/almond.png");
+    background-repeat: no-repeat;
+    background-position: 75px center;
+    padding-left: 12px;
+    padding-bottom: 3px;
+    font-size: 12px;
+    color: white;
+    background-color: #c39005;
+    width: 105px;
+}
+#picture2 li {
+    backgroun-color: pink;
+}
+a:hover {
+    color: #d42551;
+    text-decoration: none;
+}
+footer {
+    margin-top: 130px;
+    height: 80px;
+    background-color: #df5277;
+    width: 1000px;
+    display: fixed;
+}
+.foot1 {
+    float: left;
+    padding-top: -4px;
+    padding-left: 80px;
+    background-image: url("assets/images/mail.png");
+    background-repeat: no-repeat;
+    background-position: 55px center;
+    color: white;
+}
+.foot2 {
+    float: left;
+    padding-left: 170px;
+    background-image: url("assets/images/phone.png");
+    background-repeat: no-repeat;
+    background-position: 140px center;
+    color: white;
+}
+.foot3 {
+    margin: -50px;
+    float: left;
+    padding-left: 690px;
+    color: white;
+}
+.foot4 {
+    margin: -35px;
+    float: left;
+    padding-left: 760px;
+    color: white;
+}
+.foot5 {
+    margin: -35px;
+    float: left;
+    padding-left: 790px;
+    color: white;
+}
+.foot6 {
+    float: left;
+    margin-top: -5px;
+    margin-left: 290px;
+    color: white;
+}
